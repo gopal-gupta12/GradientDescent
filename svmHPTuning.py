@@ -20,7 +20,10 @@ model = SVC()
 model.fit(X_train, y_train)
 
 pred = model.predict(X_test)
-#print(classification_report(y_test ,pred))
+print(classification_report(y_test ,pred))
+
+
+# Hyperparameter Tuning using GridSearchCV
 
 par_grid = {
            'C' : [0.1,1,10,100,1000,1000], 

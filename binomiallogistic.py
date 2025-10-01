@@ -11,3 +11,4 @@ mod.fit(x_train, y_train)
 
 pre = mod.predict(x_test)
 print(round(accuracy_score(y_test, pre), 2)*100)
+
