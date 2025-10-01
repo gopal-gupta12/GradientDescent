@@ -1,1 +1,2 @@
-Gradient Descent on Linear Regression
+Machine Learning Algorithms
+
